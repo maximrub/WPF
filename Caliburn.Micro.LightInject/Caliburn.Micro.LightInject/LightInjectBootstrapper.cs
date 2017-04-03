@@ -6,11 +6,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Caliburn.Micro.LightInject
 {
-    public class Bootstrapper : BootstrapperBase
+    public abstract class LightInjectBootstrapper : BootstrapperBase
     {
         protected ServiceContainer m_Container;
 
-        public Bootstrapper()
+        protected LightInjectBootstrapper()
         {
             Initialize();
         }
