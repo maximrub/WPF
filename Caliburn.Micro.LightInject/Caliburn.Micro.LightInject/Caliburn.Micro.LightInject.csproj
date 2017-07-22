@@ -31,19 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Caliburn.Micro, Version=3.0.3.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.Core.3.0.3\lib\net45\Caliburn.Micro.dll</HintPath>
+      <HintPath>..\packages\Caliburn.Micro.Core.3.1.0\lib\net45\Caliburn.Micro.dll</HintPath>
     </Reference>
     <Reference Include="Caliburn.Micro.Platform, Version=3.0.3.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.3.0.3\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+      <HintPath>..\packages\Caliburn.Micro.3.1.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Caliburn.Micro.Platform.Core, Version=3.0.3.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.3.0.3\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
+      <HintPath>..\packages\Caliburn.Micro.3.1.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
     </Reference>
     <Reference Include="LightInject, Version=5.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\LightInject.5.0.3\lib\net46\LightInject.dll</HintPath>
     </Reference>
-    <Reference Include="LightInject.Microsoft.DependencyInjection, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LightInject.Microsoft.DependencyInjection.2.0.1\lib\netstandard1.1\LightInject.Microsoft.DependencyInjection.dll</HintPath>
+    <Reference Include="LightInject.Microsoft.DependencyInjection, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LightInject.Microsoft.DependencyInjection.2.0.2\lib\netstandard1.1\LightInject.Microsoft.DependencyInjection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.1.1.1\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
@@ -63,8 +63,8 @@
       <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
-    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.3.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
     <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
@@ -123,7 +123,7 @@
       <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Caliburn.Micro.3.0.3\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <HintPath>..\packages\Caliburn.Micro.3.1.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
