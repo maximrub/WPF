@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using LightInject;
-using LightInject.Microsoft.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Caliburn.Micro.LightInject
 {
@@ -18,11 +16,8 @@ namespace Caliburn.Micro.LightInject
         protected override sealed void Configure()
         {
             Container = new ServiceContainer();
-            IServiceCollection services = new ServiceCollection();
-            ConfigureServices(services);
             Register(Container);
             RegisterViews(Container);
-            populateContainer(Container, services);
             OnRegistered(Container);
         }
 
@@ -39,13 +34,6 @@ namespace Caliburn.Micro.LightInject
         protected override void BuildUp(object i_Instance)
         {
             Container.InjectProperties(i_Instance);
-        }
-
-        /// <summary>
-        /// Configure Framework services
-        /// </summary>
-        protected virtual void ConfigureServices(IServiceCollection i_Services)
-        {
         }
 
         /// <summary>
@@ -67,11 +55,6 @@ namespace Caliburn.Micro.LightInject
         /// </summary>
         protected virtual void OnRegistered(ServiceContainer i_Container)
         {
-        }
-
-        private void populateContainer(ServiceContainer i_Container, IServiceCollection i_Services)
-        {
-            i_Container.CreateServiceProvider(i_Services);
         }
     }
 }

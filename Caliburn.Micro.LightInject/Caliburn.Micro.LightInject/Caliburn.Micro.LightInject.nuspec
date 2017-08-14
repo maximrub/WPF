@@ -12,6 +12,6 @@
     <description>$description$</description>
     <releaseNotes></releaseNotes>
     <copyright>Maxim Rubchinsky</copyright>
-    <tags>WPF MVVM Caliburn.Micro LightInject Microsoft.Extensions.DependencyInjection</tags>
+    <tags>WPF MVVM Caliburn.Micro LightInject</tags>
   </metadata>
 </package>
